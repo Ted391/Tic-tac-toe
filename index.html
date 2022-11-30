@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Крестики-нолики</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="content">
+
+        <div class="currentPlayer">
+            <span>Сейчас ходит: <span id="curPlyr">X</span></span>
+        </div>
+
+        <div id="area"></div>
+
+        <div class="stat">
+            <table>
+                <th colspan="2">Статистика</th>
+                <tr>
+                    <td>X</td>
+                    <td><span id="stat-X">0</span></td>
+                </tr>
+                <tr>
+                    <td>O</td>
+                    <td><span id="stat-O">0</span></td>
+                </tr>
+                <tr>
+                    <td>Ничьи</td>
+                    <td><span id="stat-Draw">0</span></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="scripts/index.js"></script>
+    </div>
+</body>
+</html>
